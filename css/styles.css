@@ -1,0 +1,229 @@
+body {
+    font-family: "Afacad Flux",sans-serif;
+  }
+  
+  nav {
+    font-size: 20px;
+    background-color: #fff;
+  /*  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  Adding slight shadow for better visibility */
+  }
+
+  a{
+    font-size: 60pt;
+    font-weight: bold;
+  }
+
+  .heading2-hero-section{
+        color: blue;
+        font-size: 35pt;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+  }  .btn-view-projects {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border-radius: 5px;
+}
+
+h3{
+    font-size: 30pt;
+}
+
+.btn-view-projects:hover {
+    background-color: #0069d9;
+}
+
+.btn-download-cv {
+    background-color: #eaf6ff; /* Light blue button */
+    color: #007bff;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+}
+
+.btn-download-cv:hover {
+    background-color: #d1ecff;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+  .social-icons a {
+    font-size: 20px;
+    color: #000;
+    margin: 0 10px;
+  }
+  
+  footer{
+    font-size: 15pt;
+    font-weight: bold;
+  }
+
+  footer p{
+    text-align: center;
+  }
+
+  .projects-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+  section {
+    padding: 100px 0;
+  }
+  .section-title-contact{
+    color: black;
+    font-weight: bolder;
+    font-size: 20pt;
+    text-align: center;
+  }
+
+  .img-fluid{
+    height: 600px;
+    width: 400px;
+  }
+
+  p{
+    text-align: justify;
+  }
+  .services-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    color: #007bff; /* Blue color for "What I Do" */
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+.section-heading {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    background-color: #eaf6ff; /* Light background for each service */
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    font-size: 36px;
+    color: #007bff; /* Blue color for icons */
+    margin-bottom: 15px;
+}
+
+.service-heading {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-text {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+h5.card-title{
+  font-size: 1.5rem;
+}
+
+.contact-item i {
+  margin-bottom: 10px;
+}
+
+.contact-item h6 {
+  font-weight: bold;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-section p.lead {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-dark{
+  margin-left: 50pt;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.text-dark-contact{
+  margin-left: 90pt;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.card-img-top{
+    height: 200pt;
+    width: 311pt;
+}
+
+  @media (max-width: 991.98px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-content {
+      max-width: 100%;
+    }
+    .hero-content h1 {
+      font-size: 36px;
+    }
+    .hero-content p {
+      font-size: 16px;
+    }
+    .img-fluid{
+        height: 400px;
+        width: 250px;
+        margin-top: 10px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .hero-content h1 {
+      font-size: 28px;
+    }
+    .hero-content p {
+      font-size: 14px;
+    }
+    .service-box {
+      margin-bottom: 30px;
+  }
+
+    .img-fluid{
+        height: 400px;
+        width: 250px;
+    }
+ 
+}
+
