@@ -184,11 +184,6 @@ h5.card-title{
   text-decoration: none;
 }
 
-.card-img-top{
-    height: 200pt;
-    width: 311pt;
-}
-
   @media (max-width: 991.98px) {
     .hero-section {
       flex-direction: column;
@@ -208,6 +203,7 @@ h5.card-title{
         width: 250px;
         margin-top: 10px;
     }
+      
   }
   @media (max-width: 767.98px) {
     .hero-content h1 {
